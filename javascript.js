@@ -354,12 +354,12 @@ function result(choice1, choice2) {
                 break;
         case 'food-plastic':
         case 'plastic-food':
-            if (!options.includes("Contaminated Waste")) {
-                options.push("Contaminated Waste");
+            if (!options.includes("contaminated Waste")) {
+                options.push("contaminated Waste");
                 combinationElement.push('food-plastic');
                 combinationElement.push('plastic-food');
                 console.log(options);
-                addResult("Contaminated Waste");
+                addResult("contaminated Waste");
                 initializeMenu(); 
             }
             break;
